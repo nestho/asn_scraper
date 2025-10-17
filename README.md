@@ -1,22 +1,19 @@
-# ASN Scraper Project
+# ASN Scraper
 
-A production-ready Python tool to scrape and validate ASNs and IP prefixes.
+Fetch and validate Autonomous System (AS) prefixes from Potaroo, RIPEstat, and RouteViews.
 
 ---
 
 ## 🚀 Features
-
-- Fetch all ASNs from **Potaroo**
-- Filter by **country** or **specific ASNs**
-- Validate prefixes via **RIPEstat** and **RouteViews**
-- Saves data in structured folders
-- Progress tracking in `progress.json`
-- Error-safe, auto-resumable
+- Fetch ASNs and prefixes from Potaroo
+- Filter by country or specific ASN list
+- Cross-check prefixes with RIPEstat & RouteViews
+- Organized per-AS folder output
+- Automatic progress tracking in `progress.json`
 
 ---
 
-## 🧩 Installation
-
+## ⚙️ Installation
 ```bash
 git clone https://github.com/yourname/asn_scraper.git
 cd asn_scraper
