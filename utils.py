@@ -4,6 +4,8 @@ import aiohttp
 import async_timeout
 from typing import Optional, List
 from bs4 import BeautifulSoup
+from pathlib import Path
+
 
 # Regexes
 RE_IPV4 = re.compile(r"\b\d{1,3}(?:\.\d{1,3}){3}/\d{1,2}\b")
