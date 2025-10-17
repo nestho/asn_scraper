@@ -15,7 +15,7 @@ Fetch and validate Autonomous System (AS) prefixes from Potaroo, RIPEstat, and R
 
 ## ⚙️ Installation
 ```bash
-git clone https://github.com/yourname/asn_scraper.git
+git clone https://github.com/nestho/asn_scraper.git
 cd asn_scraper
 python3 -m venv venv
 source venv/bin/activate
